@@ -8,7 +8,7 @@ from langchain.chains import RetrievalQAWithSourcesChain
 import PyPDF2
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'key here'
 
 # This function will go through pdf and extract and return list of page texts.
 def read_and_textify(files):
